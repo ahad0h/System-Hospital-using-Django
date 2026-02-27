@@ -1,0 +1,10 @@
+{% extends 'ahad/base.html' %}
+
+{% block content %}
+<h2>Patient Details</h2>
+
+<p><strong>Name:</strong> {{ patient.name }}</p>
+<p><strong>Phone:</strong> {{ patient.phone }}</p>
+<p><strong>Age:</strong> {{ patient.age }}</p>
+<p><strong>Clinic:</strong> {{ patient.clinic.name }}</p>
+{% endblock %}

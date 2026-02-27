@@ -1,0 +1,12 @@
+-- database: ./db.sqlite3
+
+SELECT * FROM ahad_clinic;
+
+INSERT INTO ahad_clinic (name, location) VALUES ('Dental Clinic', 'Riyadh');
+INSERT INTO ahad_clinic (name, location) VALUES ('Eye Clinic', 'Jeddah');
+INSERT INTO ahad_clinic (name, location) VALUES ('Heart Clinic', 'Dammam');
+INSERT INTO ahad_clinic (name, location) VALUES ('Skin Clinic', 'Mecca');
+INSERT INTO ahad_clinic (name, location) VALUES ('Children Clinic', 'Medina');
+INSERT INTO ahad_clinic (name, location) VALUES ('Orthopedic Clinic', 'Tabuk');
+INSERT INTO ahad_clinic (name, location) VALUES ('ENT Clinic', 'Abha');
+INSERT INTO ahad_clinic (name, location) VALUES ('General Clinic', 'Taif');

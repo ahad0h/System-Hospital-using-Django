@@ -1,0 +1,46 @@
+-- database: ./db.sqlite3
+
+SELECT * FROM ahad_patient;
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Brandtr', '1994271288', 21,
+       (SELECT id FROM ahad_clinic WHERE name = 'Dental Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Brandtr', '1994271288', 21,
+       (SELECT id FROM ahad_clinic WHERE name = 'Dental Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Moritz', '6019762810', 22,
+       (SELECT id FROM ahad_clinic WHERE name = 'Eye Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Trstram', '2097286099', 23,
+       (SELECT id FROM ahad_clinic WHERE name = 'Heart Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Gordy', '3431662078', 24,
+       (SELECT id FROM ahad_clinic WHERE name = 'Skin Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Fern', '6581167865', 25,
+       (SELECT id FROM ahad_clinic WHERE name = 'Dental Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Waldemar', '9033408723', 26,
+       (SELECT id FROM ahad_clinic WHERE name = 'Eye Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Daniel', '1089612828', 27,
+       (SELECT id FROM ahad_clinic WHERE name = 'Heart Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Valentino', '1604030260', 28,
+       (SELECT id FROM ahad_clinic WHERE name = 'Skin Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Aldo', '1835285700', 29,
+       (SELECT id FROM ahad_clinic WHERE name = 'Dental Clinic'));
+
+INSERT INTO ahad_patient (name, phone, age, clinic_id)
+VALUES ('Lorine', '9817371391', 30,
+       (SELECT id FROM ahad_clinic WHERE name = 'Eye Clinic'));
